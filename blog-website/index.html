@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogSphere | Modern Blog Website</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+    <div class="logo">
+        BlogSphere
+    </div>
+
+    <nav>
+
+        <a href="#home">Home</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+    <div class="nav-right">
+
+        <button id="themeBtn">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+
+    </div>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <h1>Share Your Ideas With The World</h1>
+
+        <p>
+            Discover inspiring articles on technology,
+            lifestyle, programming, travel and much more.
+        </p>
+
+        <a href="#blogs" class="btn">
+            Explore Blogs
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ================= SEARCH ================= -->
+
+<section class="search-section">
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search blogs..."
+    >
+
+</section>
+
+<!-- ================= BLOGS ================= -->
+
+<section class="blogs" id="blogs">
+
+    <h2>Latest Blogs</h2>
+
+    <div class="blog-container">
+
+        <!-- CARD 1 -->
+
+        <div class="blog-card">
+
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800"
+            alt="">
+
+            <div class="blog-content">
+
+                <h3>Learn Web Development</h3>
+<p class="meta">
+    👤 By Sri kannan | 📅 29 June 2026
+</p>
+                <p>
+                    Start your journey into HTML, CSS,
+                    JavaScript and become a front-end developer.
+                </p>
+<div class="tags">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+</div>
+                <button
+                class="readMoreBtn"
+
+                data-title="Learn Web Development"
+
+                data-content="Web development is one of the most demanded skills today. Learn HTML, CSS, JavaScript and modern frameworks to build amazing websites.">
+                Read More
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- CARD 2 -->
+
+        <div class="blog-card">
+
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800"
+            alt="">
+
+            <div class="blog-content">
+
+                <h3>JavaScript Tips</h3>
+<p class="meta">
+    👤 By Sathiya | 📅 29 June 2026
+</p>
+                <p>
+                    Improve your coding skills using ES6,
+                    DOM manipulation and asynchronous programming.
+                </p>
+
+                <button
+                class="readMoreBtn"
+
+                data-title="JavaScript Tips"
+
+                data-content="Master JavaScript by practicing DOM projects, Fetch API, Promises, Async/Await and ES6 concepts.">
+                Read More
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- CARD 3 -->
+
+        <div class="blog-card">
+
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800"
+            alt="">
+
+            <div class="blog-content">
+
+                <h3>Student Productivity</h3>
+<p class="meta">
+    👤 By Shalini | 📅 29 June 2026
+</p>
+                <p>
+                    Best techniques for managing college,
+                    coding practice and internships.
+                </p>
+
+                <button
+                class="readMoreBtn"
+
+                data-title="Student Productivity"
+
+                data-content="Time management, Pomodoro Technique, daily coding and project building can boost productivity tremendously.">
+                Read More
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- CARD 4 -->
+
+        <div class="blog-card">
+
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800"
+            alt="">
+
+            <div class="blog-content">
+
+                <h3>Travel Diaries</h3>
+<p class="meta">
+    👤 By Shandeeptha | 📅 29 June 2026
+</p>
+                <p>
+                    Explore beautiful places and create unforgettable memories.
+                </p>
+
+                <button
+                class="readMoreBtn"
+
+                data-title="Travel Diaries"
+
+                data-content="Traveling helps us experience new cultures, cuisines and adventures while creating lifelong memories.">
+                Read More
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- CARD 5 -->
+
+        <div class="blog-card">
+
+            <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800"
+            alt="">
+
+            <div class="blog-content">
+
+                <h3>Healthy Lifestyle</h3>
+<p class="meta">
+    👤 By  Jaya Sri | 📅 25 July 2025
+</p>
+                <p>
+                    Daily habits that improve your health,
+                    skin, confidence and happiness.
+                </p>
+
+                <button
+                class="readMoreBtn"
+
+                data-title="Healthy Lifestyle"
+
+                data-content="Healthy eating, exercise, proper sleep and hydration help improve your physical and mental health.">
+                Read More
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- CARD 6 -->
+
+        <div class="blog-card">
+
+            <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=800"
+            alt="">
+
+            <div class="blog-content">
+
+                <h3>AI & Future</h3>
+<p class="meta">
+    👤 By Sri  | 📅 29 June 2025
+</p>
+                <p>
+                    Explore Artificial Intelligence and how it is changing the world.
+                </p>
+
+                <button
+                class="readMoreBtn"
+
+                data-title="AI & Future"
+
+                data-content="Artificial Intelligence is transforming education, healthcare, software development and business industries.">
+                Read More
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about" id="about">
+
+    <h2>About BlogSphere</h2>
+
+    <p>
+
+        BlogSphere is a modern blogging website built using
+        HTML, CSS and JavaScript.
+
+        It allows users to read beautiful articles while enjoying
+        a clean and responsive interface.
+
+    </p>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact" id="contact">
+
+    <h2>Contact Us</h2>
+
+    <form>
+
+        <input
+        type="text"
+        placeholder="Your Name"
+        required>
+
+        <input
+        type="email"
+        placeholder="Your Email"
+        required>
+
+        <textarea
+        placeholder="Write your message..."
+        rows="6"
+        required></textarea>
+
+        <button type="submit">
+            Send Message
+        </button>
+
+    </form>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <p>
+
+        © 2026 BlogSphere | Designed with ❤️ using HTML CSS JavaScript
+
+    </p>
+
+</footer>
+
+<!-- ================= POPUP ================= -->
+
+<div class="popup" id="popup">
+
+    <div class="popup-content">
+
+        <span id="closePopup">
+            &times;
+        </span>
+
+        <h2 id="popupTitle"></h2>
+
+        <p id="popupText"></p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
